@@ -1,0 +1,454 @@
+Debug run start
+CROP_FOLDER: C:\Users\Gnanasekar\Downloads\MODELS\Digit_Upright\ALL_UPRIGHT
+Found 90 files
+Processing: 20250814_112126185_iOS_jpg3.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='724' avg_conf=0.000 conf_count=1
+Processing: 20250814_112126185_iOS_jpg4.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='6323' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112134859_iOS_jpg3.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='112' avg_conf=0.000 conf_count=1
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112134859_iOS_jpg4.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112143952_iOS_jpg44.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112153415_iOS_jpg9.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112203588_iOS_jpg18.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112203588_iOS_jpg19.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112203588_iOS_jpg21.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112203588_iOS_jpg23.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112203588_iOS_jpg32.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112203588_iOS_jpg33.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='2' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112203588_iOS_jpg34.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112203588_iOS_jpg5.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112203588_iOS_jpg6.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112210837_iOS_jpg18.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='7' avg_conf=29.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112210837_iOS_jpg21.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112218631_iOS_jpg4.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112218631_iOS_jpg5.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112224368_iOS_jpg21.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112506111_iOS_jpg.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112506111_iOS_jpg16.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112506111_iOS_jpg17.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='34' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='34' avg_conf=0.000 conf_count=1
+Processing: 20250814_112506111_iOS_jpg18.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='4' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112506111_iOS_jpg19.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112506111_iOS_jpg2.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='34' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='34' avg_conf=72.000 conf_count=1
+Processing: 20250814_112506111_iOS_jpg20.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112508305_iOS_jpg7.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='324' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='2024' avg_conf=0.000 conf_count=1
+Processing: 20250814_112508305_iOS_jpg9.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='29' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112514946_iOS_jpg15.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='22' avg_conf=0.000 conf_count=1
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112514946_iOS_jpg16.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='4' avg_conf=0.000 conf_count=1
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112514946_iOS_jpg17.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='2' avg_conf=0.000 conf_count=1
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112514946_iOS_jpg18.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='62' avg_conf=0.000 conf_count=1
+Processing: 20250814_112514946_iOS_jpg19.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='2' avg_conf=0.000 conf_count=1
+    variant adaptive_mean: text='6' avg_conf=62.000 conf_count=1
+Processing: 20250814_112514946_iOS_jpg20.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='7' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112525876_iOS_jpg2.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='47223' avg_conf=13.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112525876_iOS_jpg22.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112525876_iOS_jpg24.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112525876_iOS_jpg25.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='7' avg_conf=0.000 conf_count=1
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112525876_iOS_jpg96.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112525876_iOS_jpg97.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg25.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='1' avg_conf=0.000 conf_count=1
+Processing: 20250814_112529095_iOS_jpg27.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='5' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='424' avg_conf=2.000 conf_count=1
+Processing: 20250814_112529095_iOS_jpg28.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='164' avg_conf=0.000 conf_count=1
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg29.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg30.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg31.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg32.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg33.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='24' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg34.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg85.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='3' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg86.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg88.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg89.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='47' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg92.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112529095_iOS_jpg95.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='625' avg_conf=18.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='624' avg_conf=1.000 conf_count=1
+Processing: 20250814_112724678_iOS_jpg.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112724678_iOS_jpg3.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112724678_iOS_jpg44.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112724678_iOS_jpg45.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='1' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='4' avg_conf=0.000 conf_count=1
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112724678_iOS_jpg46.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112724678_iOS_jpg48.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112724678_iOS_jpg51.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112727587_iOS_jpg12.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112727587_iOS_jpg2.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112727587_iOS_jpg26.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='2' avg_conf=13.000 conf_count=1
+Processing: 20250814_112727587_iOS_jpg28.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112727587_iOS_jpg29.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112727587_iOS_jpg4.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='4' avg_conf=0.000 conf_count=1
+Processing: 20250814_112727587_iOS_jpg6.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112727587_iOS_jpg83.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112727587_iOS_jpg85.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='3' avg_conf=0.000 conf_count=1
+Processing: 20250814_112805149_iOS_jpg19.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112805149_iOS_jpg21.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112805149_iOS_jpg22.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112806955_iOS_jpg.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112806955_iOS_jpg23.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112836924_iOS_jpg25.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='7' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: 20250814_112901673_iOS_jpg28.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: CIMG5646.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: Image-2-_jpg3.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='7' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='274' avg_conf=52.000 conf_count=1
+    variant adaptive_mean: text='47' avg_conf=0.000 conf_count=1
+Processing: Image-21-_jpg13.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: Image-21-_jpg14.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='9' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='9' avg_conf=69.000 conf_count=1
+Processing: Image-6-_jpg10.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='2' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='0' avg_conf=0.000 conf_count=1
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: Image-6-_jpg11.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='3' avg_conf=0.000 conf_count=1
+Processing: Image-6-_jpg13.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='5' avg_conf=56.000 conf_count=1
+Processing: Image-6-_jpg14.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='2' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='' avg_conf=0.000 conf_count=0
+Processing: Image-6-_jpg4.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='3' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='43' avg_conf=0.000 conf_count=1
+Processing: Image-6-_jpg5.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='2' avg_conf=0.000 conf_count=1
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='42' avg_conf=23.000 conf_count=1
+Processing: Image-_22__jpg12.jpg
+  variants: otsu,clahe_otsu,adaptive_mean
+    variant otsu: text='' avg_conf=0.000 conf_count=0
+    variant clahe_otsu: text='' avg_conf=0.000 conf_count=0
+    variant adaptive_mean: text='5' avg_conf=58.000 conf_count=1
+Run finished OK
