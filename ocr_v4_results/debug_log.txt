@@ -1,0 +1,5 @@
+Debug run start
+CROP_FOLDER: C:\Users\Gnanasekar\Downloads\MODELS\Digit_Upright
+Found 0 files
+No input images - exiting.
+Run finished OK

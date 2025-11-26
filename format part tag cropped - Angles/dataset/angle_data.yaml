@@ -1,0 +1,8 @@
+# angle_data.yaml
+path: ./dataset
+train: train
+val: val
+test: test
+
+nc: 4
+names: ["0","90","180","270"]

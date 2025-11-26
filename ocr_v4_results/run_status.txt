@@ -1,0 +1,3 @@
+OK
+files_processed: 0
+csv: C:\Users\Gnanasekar\Downloads\MODELS\Digit_Upright\ocr_v4_results\ocr_v4_results.csv

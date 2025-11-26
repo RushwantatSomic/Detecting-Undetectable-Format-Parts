@@ -1,0 +1,137 @@
+"""
+make_upright_dataset.py
+
+Usage:
+    python make_upright_dataset.py \
+      --src "path/to/your/format part tag cropped - Angles/dataset" \
+      --dst "path/to/your/format part tag cropped - Angles/dataset_upright" \
+      --inplace False
+
+This will read:
+    src/train/0, src/train/90, src/train/180, src/train/270
+    src/val/...
+    src/test/...
+
+And produce:
+    dst/train/0/
+    dst/val/0/
+    dst/test/0/
+
+All images rotated to upright (0°).
+"""
+from pathlib import Path
+from PIL import Image, ImageOps
+import argparse
+import shutil
+
+VALID_EXTS = {'.jpg', '.jpeg', '.png', '.bmp', '.tif', '.tiff', '.webp'}
+
+def make_dirs(path: Path):
+    path.mkdir(parents=True, exist_ok=True)
+
+def unique_path(dst_dir: Path, name: str) -> Path:
+    """Return a non-colliding path in dst_dir for filename name."""
+    candidate = dst_dir / name
+    if not candidate.exists():
+        return candidate
+    stem = candidate.stem
+    suffix = candidate.suffix
+    i = 1
+    while True:
+        candidate = dst_dir / f"{stem}_{i}{suffix}"
+        if not candidate.exists():
+            return candidate
+        i += 1
+
+def process_image(in_path: Path, out_path: Path, rotate_ccw_degrees: int):
+    # open and apply exif orientation (if present)
+    img = Image.open(in_path)
+    img = ImageOps.exif_transpose(img)  # correct orientation from EXIF before rotating
+
+    if rotate_ccw_degrees % 360 != 0:
+        # PIL.Image.rotate(angle) rotates counter-clockwise by angle degrees
+        img = img.rotate(rotate_ccw_degrees, expand=True)
+
+    # preserve format (use original suffix)
+    out_path_parent = out_path.parent
+    make_dirs(out_path_parent)
+    # choose proper save format
+    save_kwargs = {}
+    fmt = None
+    if in_path.suffix.lower() in {'.jpg', '.jpeg'}:
+        fmt = 'JPEG'
+        save_kwargs['quality'] = 95
+    elif in_path.suffix.lower() == '.png':
+        fmt = 'PNG'
+    elif in_path.suffix.lower() in {'.webp'}:
+        fmt = 'WEBP'
+    # else let PIL infer
+    img.save(out_path, format=fmt, **save_kwargs)
+
+def main(src, dst, inplace):
+    src = Path(src)
+    dst = Path(dst)
+
+    # expected top-level splits:
+    splits = ['train', 'val', 'test']
+    angle_dirs = ['0', '90', '180', '270']
+
+    if not src.exists():
+        raise SystemExit(f"Source dataset folder does not exist: {src}")
+
+    # Create destination structure: dst/{train,val,test}/0
+    for s in splits:
+        make_dirs(dst / s / '0')
+
+    for s in splits:
+        for angle in angle_dirs:
+            folder = src / s / angle
+            if not folder.exists():
+                # skip missing angle folders (common if a split has none for that angle)
+                continue
+            for img_path in sorted(folder.iterdir()):
+                if img_path.suffix.lower() not in VALID_EXTS:
+                    continue
+
+                # Determine rotation needed to make upright (0)
+                # We assume folder name indicates the image's current rotation in degrees clockwise from upright.
+                # To undo that, rotate counter-clockwise by the same angle: rotate_ccw = angle
+                try:
+                    angle_val = int(angle) % 360
+                except Exception:
+                    angle_val = 0
+                rotate_ccw = angle_val  # rotate CCW by angle degrees to undo clockwise rotation
+
+                # output path: put everything into dst/<split>/0/
+                out_dir = dst / s / '0'
+                # keep original filename but avoid collisions
+                out_name = img_path.name
+                out_path = unique_path(out_dir, out_name)
+
+                # process (rotate and save)
+                process_image(img_path, out_path, rotate_ccw)
+
+    # If user requested inplace operation (overwrite original dataset),
+    # move the dst contents back into src (after backing up).
+    if inplace:
+        backup = src.with_name(src.name + "_backup_before_inplace")
+        if backup.exists():
+            raise SystemExit(f"Backup folder already exists: {backup}. Remove it first or run with inplace=False.")
+        print(f"Backing up original dataset to: {backup}")
+        shutil.move(str(src), str(backup))
+        print(f"Moving upright dataset into original location: {src}")
+        shutil.move(str(dst), str(src))
+        print("Inplace replacement completed. Original dataset backed up.")
+
+    print("All done. Upright dataset created at:", dst)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--src', required=True,
+                        help='Path to original dataset folder that has train/val/test splits containing angle subfolders.')
+    parser.add_argument('--dst', required=True,
+                        help='Path where upright dataset will be created.')
+    parser.add_argument('--inplace', action='store_true',
+                        help='If set, replace the src folder with the upright dataset (backups original as *_backup_before_inplace).')
+    args = parser.parse_args()
+    main(args.src, args.dst, args.inplace)
