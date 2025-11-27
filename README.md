@@ -1,4 +1,4 @@
-**Tag Recognition and Crop — Branch Overview**<br>
+**Tag Recognition and Crop — Branch Overview** (Not all files are here, please refer the zip file i sent you on chat) <br> 
 
 This branch contains the trained model and supporting scripts used to detect and crop format-part tags from images or video streams. <br><br>
 
