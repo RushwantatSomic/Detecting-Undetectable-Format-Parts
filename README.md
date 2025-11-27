@@ -1,10 +1,10 @@
-DIGIT UPRIGHT — Branch Overview
+**DIGIT UPRIGHT — Branch Overview**
 
 This branch contains all scripts and logic used for upright image orientation and numeric tag detection. The workflow ensures that rotated tag images are corrected before running OCR, resulting in significantly improved recognition accuracy.
 
 <br>
 
-Image Rotation & Orientation
+**Image Rotation & Orientation**
 
 File: orient_and_fix.py
 
@@ -13,7 +13,7 @@ It serves as the preprocessing stage to ensure consistent, rotation-normalized i
 
 <br>
 
-Digit Detection (OCR)
+**Digit Detection (OCR)**
 
 File: ocr_with_rois_v4.py
 
