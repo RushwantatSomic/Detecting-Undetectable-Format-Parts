@@ -1,0 +1,18 @@
+# Ultralytics / YOLOv8 dataset config for Hub upload
+# Place this file at the root of your dataset folder (e.g. "dataset/data.yaml").
+
+# Paths are relative to the dataset folder:
+train: images/train
+val: images/val
+# test: images/test   # uncomment if you have a test set
+
+nc: 1
+names: ['FormatPart No.']
+
+# (Optional) Metadata from Roboflow can be kept but is not required by Ultralytics Hub.
+roboflow:
+  workspace: somic-wpaq4
+  project: my-first-project-l2i1q
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/somic-wpaq4/my-first-project-l2i1q/dataset/5
